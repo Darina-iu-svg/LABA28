@@ -1,0 +1,148 @@
+.mage{
+    width: 400PX;   
+    height: 70px;
+    border: 3px solid;
+    border-color: black;
+    position: relative;
+    left: 0px;
+    animation-name: sky;
+    animation-direction: 2s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+.mage:hover{
+    animation-play-state: paused;
+}
+@keyframes sky{
+    0%{
+left: 0px;
+    }
+ 100%{
+left: 1320px
+ }
+}
+
+
+
+
+p{
+    text-align: center;
+    
+}
+.mage:hover{
+    background-color: #CBE9EB;
+    color: white;
+    cursor: pointer;
+}
+.main{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+.block1,
+.block2,
+.block3{
+    width: 300px;
+    height: 600px;
+    border: 3px solid;
+    border-color: black;
+    margin-left: 30px ;
+}
+.block1{
+    margin-left: 350px;
+    background-color: #D5E2F2;
+}
+.block2{
+    background-color: #B0D5D9;
+}
+.block3{
+    background-color: #D4D9AD;
+}
+.hi{
+    font-size: 18px;
+}
+.block1:hover,
+.block2:hover,
+.block3:hover{
+    width: 330px;
+    height: 620px;
+}
+.fruit{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.container1{
+    position: relative;
+}
+.happy,
+.now{
+    margin-top: -300px;
+    width: 900px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+.photo{
+padding-left: 1100px;
+}
+.sad{
+    margin-top: -300px;
+    width: 900px; 
+    font-size: 20px;
+    margin-left: 200px;
+}
+.panic{
+    padding-left: 600px;
+}
+.www{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+.container5{
+    position: relative;
+    width: 1920px;
+}
+h2{
+    text-align: center;
+    color: #D7B4D0;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.age{
+    position: absolute;
+    padding-top: 100px;
+}
+.molbert{
+    position: absolute;
+    padding-left: 500px;
+}
+.cat{
+    padding-left: 1100px;
+    padding-top: 200px;
+}
+.catu{
+    position: absolute;
+    margin-top: -700px;
+    padding-left: 1300px;
+}
+.swiper-container{
+    width: 1600px;
+    height: 600px;
+}
+.swiper-container .swiper-button-next::after,
+.swiper-container .swiper-button-prev::after{
+    color: wheat;
+    font-size: 80px;
+}
+.swiper-container .swiper-pagination{
+    bottom: 0px;
+}
+.swiper-container .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: white;
+}
